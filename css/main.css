@@ -12,6 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  transition: all 2s ease;
 }
 .container {
   max-width: 1440px;
@@ -86,6 +87,11 @@ body {
 .buttons-getstarted {
   background: rgb(210, 225, 255);
   color: rgb(58, 121, 255);
+  transition: background 2s ease;
+}
+.buttons-getstarted:hover{
+   background: rgb(58, 121, 255);
+  color: rgb(210, 225, 255);
 }
 /* stats */
 .stats {
@@ -257,3 +263,63 @@ body {
     "img3";
 }
 }
+footer { 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+min-height: 100vh; 
+padding: 50px; 
+background-color: #18191C; 
+} 
+.parent { 
+display: flex; 
+width: 500px; 
+} 
+.child-container1 { 
+display: flex; 
+width: 200px; 
+height: 200px; 
+align-items: flex-start; 
+justify-content: end; 
+} 
+.child-container2 { 
+display: flex; 
+width: 200px; 
+height: 200px; 
+align-items: flex-end; 
+margin-left: 50px; 
+} 
+.child1 { 
+width: 50px; 
+height: 50px; 
+background-color: #F498AD; 
+border-radius: 25px; 
+animation-name: circle-to-square; 
+animation-duration: 5s; 
+animation-iteration-count: infinite; 
+animation-direction: alternate; 
+
+} 
+.child2 { 
+width: 200px; 
+height: 200px; 
+background-color: #2E9AFF; 
+border-radius: 25px; 
+}
+@keyframes circle-to-square { 
+from { 
+width: 50px; 
+height: 50px; 
+background-color: #F498AD; 
+} 
+50% { 
+width: 50px; 
+height: 200px; 
+background-color: #7F6EDB; 
+} 
+to { 
+width: 200px; 
+height: 200px; 
+background-color: #2E9AFF; 
+} 
+} 
