@@ -1,2 +1,2 @@
-<h2>Сайт для партфольо </h2>
+<h2>Сайт для пoртфолио </h2>
 https://mikhail-hello.github.io/projectPerevalov/
