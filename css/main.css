@@ -19,6 +19,31 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+/*menu*/
+nav{
+  position: fixed;
+  top:0;
+  width: 100%;
+  background: #f3f1f1;
+  z-index: 5;
+}
+.navigation {
+display: flex;
+justify-content: center;
+column-gap: 30px;
+padding: 15px 0;
+}
+.navigation a{
+  font-size: 18px;
+  text-decoration: none;
+  color:rgb(64, 116, 248);
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.navigation:hover a:hover{
+  color:coral;
+  
+}
 /* features */
 .features {
   text-align: center;
